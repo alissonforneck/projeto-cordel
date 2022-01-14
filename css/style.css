@@ -62,20 +62,13 @@ section.imagem{
     color: white;
     max-height: 100vh;
     min-height: 40vh;
+    box-shadow: inset 4px 8px 6px rgba(0, 0, 0, 0.466);
 }
 
 section.imagem > p{
     width: 44vw;
     background-color: rgba(0, 0, 0, 0.295);
     height: auto;
-}
-
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-family: var(--fonte1);
 }
 section#img1{
     background: url('../imagens/background001.jpg') center right fixed;
@@ -85,4 +78,11 @@ section#img2{
     background: url('../imagens/background002.jpg') center center fixed;
     background-size: cover;
 
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--fonte1);
 }
